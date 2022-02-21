@@ -1,7 +1,6 @@
-﻿using System.Text;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 
-namespace SaltedPassword;
+namespace Ermogenes.SaltedPassword;
 public class SaltedPassword
 {
     public static int hashSizeInBytes { get; } = 512 / 8;

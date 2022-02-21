@@ -1,7 +1,8 @@
 using System;
 using Xunit;
+using Ermogenes.SaltedPassword;
 
-namespace SaltedPassword.Tests;
+namespace Ermogenes.SaltedPassword.Tests;
 
 public class SaltedPasswordTest
 {
