@@ -3,7 +3,7 @@
   <metadata>
     <title>SaltedPassword</title>
     <id>Ermogenes.SaltedPassword</id>
-    <version>1.0.1/version>
+    <version>1.0.1</version>
     <authors>Ermogenes Palacio</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
