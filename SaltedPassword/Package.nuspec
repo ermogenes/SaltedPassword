@@ -3,7 +3,7 @@
   <metadata>
     <title>SaltedPassword</title>
     <id>Ermogenes.SaltedPassword</id>
-    <version>1.0.0</version>
+    <version>1.0.1/version>
     <authors>Ermogenes Palacio</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/ermogenes/SaltedPassword</projectUrl>
     <repository type="git" url="https://github.com/ermogenes/SaltedPassword.git" branch="main" />
     <description>A simple utility to create and test salted-hash password with PBKDF2/SHA256.</description>
-    <releaseNotes>First version.</releaseNotes>
+    <releaseNotes>Documentation fixed.</releaseNotes>
     <copyright>Ermogenes Palacio</copyright>
     <tags>Salted hash;Password;PBKDF2;SHA256;HMAC;Security</tags>
     <dependencies>
