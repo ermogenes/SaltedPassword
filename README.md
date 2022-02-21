@@ -4,12 +4,12 @@ A simple utility to create and test salted-hash password with PBKDF2/SHA256
 ## Usage
 Add the package to your project:
 ```
-dotnet add package SaltedPassword
+dotnet add package Ermogenes.SaltedPassword --version 1.0.0
 ```
 
 Getting a key from a clear password:
 ```cs
-string keyToStore = SaltedPassword.GetPersistentKey(clearPassword);
+string keyToStore = Ermogenes.SaltedPassword.GetPersistentKey(clearPassword);
 ```
 
 The value of `keyToStore` is a salted-hash from the `clearPassword`, and may be stored.
@@ -21,7 +21,7 @@ base64-salt|number-of-iterations|base64-hash
 
 Testing a password for equality:
 ```cs
-bool passwordMatch = SaltedPassword.Match(clearPasswordToMatch, storedKey);
+bool passwordMatch = Ermogenes.SaltedPassword.Match(clearPasswordToMatch, storedKey);
 ```
 
 ## Test
