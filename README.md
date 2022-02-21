@@ -4,7 +4,7 @@ A simple utility to create and test salted-hash password with PBKDF2/SHA256
 ## Usage
 Add the package to your project:
 ```
-dotnet add package Ermogenes.SaltedPassword --version 1.0.1
+dotnet add package Ermogenes.SaltedPassword
 ```
 
 ```cs
