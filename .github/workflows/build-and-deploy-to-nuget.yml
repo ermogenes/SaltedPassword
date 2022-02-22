@@ -27,4 +27,4 @@ jobs:
           PROJECT_FILE_PATH: SaltedPassword/SaltedPassword.csproj
           NUGET_KEY: ${{secrets.NUGET_API_KEY}}
           VERSION_FILE_PATH: SaltedPassword/Package.nuspec
-          VERSION_REGEX: ^\s*<version>(.*)<\/version>\s*$
+          VERSION_REGEX: <version>(.*)<\/version>
