@@ -3,7 +3,7 @@
   <metadata>
     <title>SaltedPassword</title>
     <id>Ermogenes.SaltedPassword</id>
-    <version>1.0.2</version>
+    <version>2.0.0</version>
     <authors>Ermogenes Palacio</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
@@ -11,11 +11,12 @@
     <projectUrl>https://github.com/ermogenes/SaltedPassword</projectUrl>
     <repository type="git" url="https://github.com/ermogenes/SaltedPassword.git" branch="main" />
     <description>A simple utility to create and test salted-hash password with PBKDF2/SHA256.</description>
-    <releaseNotes>Changed namespace.</releaseNotes>
+    <releaseNotes>New implementation, faster.</releaseNotes>
     <copyright>Ermogenes Palacio</copyright>
     <tags>Salted hash;Password;PBKDF2;SHA256;HMAC;Security</tags>
     <dependencies>
       <group targetFramework="net6.0">
+        <dependency id="Microsoft.AspNetCore.Cryptography.KeyDerivation" version="6.0.2" />
       </group>
     </dependencies>
   </metadata>
