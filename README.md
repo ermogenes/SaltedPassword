@@ -1,6 +1,8 @@
 # SaltedPassword
 A simple utility to create and test salted-hash password with PBKDF2/SHA256
 
+[![Build and deploy to NuGet](https://github.com/ermogenes/SaltedPassword/actions/workflows/build-and-deploy-to-nuget.yml/badge.svg)](https://github.com/ermogenes/SaltedPassword/actions/workflows/build-and-deploy-to-nuget.yml)
+
 ## Usage
 Add the package to your project:
 ```
